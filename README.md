@@ -19,6 +19,7 @@ Concept design documentation complete.
 * Leverage cloud native AWS facilities for monitoring and logging.
 * Leverage Terraform for deployment facilities.
 * Leverage Spring Boot and Spring Cloud for example code, a registry and configuration management services.
+* Provide unit tests and stages for all code to support well designed CI/CD pipeline.
 
 ## Deployment Diagram
 
@@ -40,12 +41,12 @@ Concept design documentation complete.
 
 ## Deployment Steps
 
-1. Configure IAM role and API user for deployment and configure AWS Secret with API keys.
-2. Deploy ECS Cluster.
-3. Deploy Spring Configuration Server and Spring Registry Service in ECS Cluster.
-4. Deploy DynamoDB, CloudWatch rules and SNS configurations.
-5. Deploy Administrative API Service.
-6. Deploy Simple Spring Boot API Service.
+<!-- 1. Configure IAM role and API user for deployment and configure AWS Secret with API keys. -->
+1. Deploy ECS Cluster.
+2. Deploy Spring Configuration Server and Spring Registry Service in ECS Cluster.
+3. Deploy DynamoDB, CloudWatch rules and SNS configurations.
+4. Deploy Administrative API Service.
+5. Deploy Simple Spring Boot API Service.
 
 ## Citations and References
 
