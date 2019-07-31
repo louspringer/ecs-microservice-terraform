@@ -1,2 +1,2 @@
-# ecs-microservice-terraform
+# Template ECS Microservice
 Template ECS Microservice
