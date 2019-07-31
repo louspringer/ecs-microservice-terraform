@@ -2,16 +2,20 @@
 
 This project is template for a microservice using AWS ECS deployed with Terraform. The template includes typical required microservice facilities such as configuration services, logging, and monitoring.
 
+## Project Status
+
+Concept design documentation complete.
+
 ## Problem Statement
 
 1. Unneeded configuration diversity threatens security, presents opportunities for errors, generates needless duplication of effort and increases maintenance costs.
-2. Although there are significant benefits to leveraging Kubernetes for micro service deployment and management, there are significant obstacles due to the learning curve and the cost of highly-available k8s configurations.
+2. Although there are significant benefits to leveraging Kubernetes for microservice deployment and management, there are significant obstacles due to the learning curve and the cost of highly-available k8s configurations.
 3. Although many examples exist for portions or aspects of a complete microservice, there are no complete end-to-end examples or templates including attention to non-functional requirements, such as monitoring, logging, security and configuration management.
 
 ## Solution Summary
 
 * Provide a simple but complete example of a working microservice deployed on a AWS ECS, leveraging security groups and a standalone VPC to isolate the service.
-* Provide configurations and examples for non-functional aspects of a micro service, such as secure configuration management, logging, monitoring and typical administrative APIs.
+* Provide configurations and examples for non-functional aspects of a microservice, such as secure configuration management, logging, monitoring and typical administrative APIs.
 * Leverage cloud native AWS facilities for monitoring and logging.
 * Leverage Terraform for deployment facilities.
 * Leverage Spring Boot and Spring Cloud for example code, a registry and configuration management services.
